@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffd2d2;
+    background-image: url("./assets/background.png");
+}
+.image-elefante{
+    display: flex;
+    justify-content: center;
+}
+.image-elefante img{
+    width: 200px;
+    height: 230px;
+}
+.data-container{
+    text-align: center;
+    line-height: 2rem;
+}
+.data-container p:nth-child(1){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity: .6;
+}
+.data-container p:nth-child(3){
+    font-family: 'Lobster', cursive;
+    font-size: 5.1rem;
+    color: #ffbcbc;
+}
+.data-container p:nth-child(5){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity: .6;
+}
+.data-container p:nth-child(7){
+    font-family: 'Lobster', cursive;
+    font-size: 5.1rem;
+    color: #ffbcbc;
+}
+.data-container p:nth-child(9){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity: .6;
+}
+.data-container p:nth-child(11){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity: .6;
+}
+.data-container p:nth-child(13){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity: .6;
+}
+.data-container p:nth-child(15){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity: .6;
+}
+.data-container p:nth-child(17){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    opacity: .6;
+}
