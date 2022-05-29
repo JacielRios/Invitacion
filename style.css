@@ -106,7 +106,7 @@ html{
     background-color: #fff;
     margin-top: 40px;
     position: absolute;
-    bottom: -280px;
+    top: calc(100% - -200px);
 }
 .liston-container hr{
     width: 100%;
@@ -118,7 +118,7 @@ html{
     background-color: #9c9c9c;
 }
 .name{
-    margin-top: 5px;
+    margin-top: 35px;
     text-align: center;
     font-size: 3rem;
     font-family: 'Pacifico', cursive;
