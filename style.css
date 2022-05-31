@@ -100,7 +100,7 @@ html{
 .name{
     margin-top: 35px;
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.3rem;
     font-family: 'Pacifico', cursive;
 }
 .cont{
@@ -130,6 +130,7 @@ html{
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    margin-top: 5px;
     width: 260px;
     height: 260px;
     background-color: #ffbcbc;
@@ -137,10 +138,18 @@ html{
     padding: 3px;
     font-size: 1.7rem;
     font-family: 'Pacifico', cursive;
-    color: #fff;
+    color: #000;
     position: relative;
 }
 .phrase-container .phrase-container_text{
     align-self: center;
     text-align: center;
+}
+.baby-container{
+    display: flex;
+    justify-content: center;
+}
+#baby{
+    width: 300px;
+    height: 200px;
 }
