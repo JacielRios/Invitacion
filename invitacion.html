@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitacion</title>
+    <link rel="stylesheet" href="invitacion.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <section class="main-container">
+        <div class="title">
+            <h1>BABY SHOWER</h1>
+            <p>Eilen Alina</p>
+        </div>
+        <div class="invitation_container">
+            <img src="./assets/invitacion-de-boda.png">
+        </div>
+        <div class="btn-show">
+            <a href="./index.html">ABRIR</a>
+        </div>
+    </section>
+</body>
+<script>
+    const playSound = function() {
+    let element = document.createElement('div');
+    element.setAttribute('style', 'display: none');
+    element.innerHTML = `
+    <audio controls autoplay loop>
+        <source src="./assets/sound.mp4" type="audio/mp4">
+    </audio>
+    `;
+    document.body.appendChild(element);
+    document.removeEventListener("click", playSound);
+}
+document.addEventListener("click", playSound);
+</script>
+</html>
