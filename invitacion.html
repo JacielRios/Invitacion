@@ -59,7 +59,7 @@
                 </div>
                 <hr>
             </div>
-            <div class="phrase-container">    
+            <div class="phrase-container">
                 <div class="phrase-container_text">
                     <p>
                         Pronto estaré con ustedes pero ahorita Diosito aún está pintando
@@ -70,22 +70,29 @@
             </div>
         </div>
     </section>
+    <section class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.5278591593055!2d-100.1848055!3d25.620600699999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662c1562e4afcf5%3A0xd4d2dd78f139a030!2sla%20encantada%20quinta!5e0!3m2!1ses-419!2smx!4v1654387016951!5m2!1ses-419!2smx"
+            width="280px" height="280px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
     <audio autoplay loop>
         <source src="./assets/sound.mp4" type="audio/mp4">
     </audio>
 </body>
 <script>
-    const playSound = function() {
-    let element = document.createElement('div');
-    element.setAttribute('style', 'display: none');
-    element.innerHTML = `
+    const playSound = function () {
+        let element = document.createElement('div');
+        element.setAttribute('style', 'display: none');
+        element.innerHTML = `
     <audio controls autoplay loop>
         <source src="./assets/sound.mp4" type="audio/mp4">
     </audio>
     `;
-    document.body.appendChild(element);
-    document.removeEventListener("click", playSound);
-}
-document.addEventListener("click", playSound);
+        document.body.appendChild(element);
+        document.removeEventListener("click", playSound);
+    }
+    document.addEventListener("click", playSound);
 </script>
+
 </html>
