@@ -10,8 +10,8 @@ html{
     width: 100%;
     height: 100vh;
     background-color: #efadce;
-    /* background-image: url("./assets/background.png");
-    background-repeat: repeat-y; */
+    background-image: url("./assets/background.png");
+    background-repeat: repeat-y; 
 }
 .title{
     text-align: center;
@@ -19,7 +19,7 @@ html{
     font-size: 4rem;
     letter-spacing: 2px;
     padding-top: 15px;
-    color: #d63384;
+    color: #000;
 }
 .invitation_container{
     display: grid;
@@ -27,16 +27,20 @@ html{
     vertical-align: middle;
 }
 .btn-show{
-    display: grid;
-    place-content: center;
+    display: flex;
+    justify-content: center;
     font-size: 2rem;
 }
 .btn-show a{
     text-decoration: none;
     background-color: #d63384;
-    padding: 15px;
+    padding: 10px;
     border-radius: 5px;
     color: #fff;
     font-weight: 600;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.btn-show a span img{
+    height: 22.4px;
+    vertical-align: bottom;
 }
